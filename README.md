@@ -23,7 +23,7 @@ We need to monitor at least 2 things at home :
 
 - Build [the cheapest temperature sensor](cheapest-temperature-sensor.md) (for dummies)
 - A way to [collect power consumption from Linky](collect-data-from-linky.md)
-- coming soon - How to display data history
+- [How to display data history](display-data-history.md)
 - coming soon - What I've learned
   - How long does it take to gain 1°c in a room ?
   - How long does it take to lose 1°c in a room ?
