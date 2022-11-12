@@ -25,8 +25,3 @@ We need to monitor at least 2 things at home :
 - A way to [collect power consumption from Linky](collect-data-from-linky.md)
 - [How to display data history](display-data-history.md)
 - coming soon - What I've learned
-  - How long does it take to gain 1°c in a room ?
-  - How long does it take to lose 1°c in a room ?
-  - What is the benefit of using a wood stove ?
-    - When is the best moment do start it ?
-    - How long does it keep the heat in the house ?
