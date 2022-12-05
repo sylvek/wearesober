@@ -24,4 +24,4 @@ We need to monitor at least 2 things at home :
 - Build [the cheapest temperature sensor](cheapest-temperature-sensor.md) (for dummies)
 - A way to [collect power consumption from Linky](collect-data-from-linky.md)
 - [How to display data history](display-data-history.md)
-- coming soon - What I've learned
+- [What I've learned](what-ive-learned.md)
