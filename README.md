@@ -23,5 +23,6 @@ We need to monitor at least 2 things at home :
 
 - Build [the cheapest temperature sensor](cheapest-temperature-sensor.md) (for dummies)
 - A way to [collect power consumption from Linky](collect-data-from-linky.md)
+- [Control your hot water production](control-hot-water-production.md)
 - [How to display data history](display-data-history.md)
 - [What I've learned](what-ive-learned.md)
