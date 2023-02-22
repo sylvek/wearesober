@@ -59,23 +59,6 @@ The result can be compressed with `gzip` 🙂.
 > echo ".backup /path/to/backup/history.db" | /usr/bin/sqlite3 /path/to/current/history.db && /bin/gzip -f /path/to/backup/history.db
 ```
 
-At this point, all sensors publishing data on topic `sensors/(device)/(unit)` will be stored on `sensors.db` _(`select * from data;` returns all data)_.
-
-Sadely, some data needs transformations 😣. Endeed, for the [Linky](https://github.com/sylvek/linkiki/), we only collect `sensors/linky/watt` and `sensors/linky/state`.
-
-It's useful to deduce the current total consumption, the current cost, the current ratio between low and high price, the time spent by the water tank to heat.. water, etc.
-
-So, we need an another component that will apply a set of rules and publish new data. Also, our temperature sensors based on tasmota publish data over `tele/+/SENSOR` topics and we have to translate it into `sensors/(device)/(unit)` format to be relevant.
-
-This [back side does it](https://github.com/sylvek/domotik/blob/master/back/src/main/java/com/github/sylvek/domotik/Application.java) for you.
-
-It [listens two topics](https://github.com/sylvek/domotik/blob/master/back/src/main/java/com/github/sylvek/domotik/DomotikService.java) `sensors/linky/+` and `tele/+/SENSOR`, converts the second on to a `sensors/(device)/(unit)` format and [applies a set of rules for the first one](https://github.com/sylvek/domotik/blob/master/back/src/main/java/com/github/sylvek/domotik/DomotikRulesEngine.java).
-
-```
-[sensors] ----------------> [datastore] -> [grafana]
-          ---> [back] ----> [datastore] -> [grafana]
-```
-
 ## You'll need dashboards 📊
 
 Personnaly, i've cooked 3 differents dashboard.
