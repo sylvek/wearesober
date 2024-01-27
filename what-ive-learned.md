@@ -148,7 +148,7 @@ I pay ~1300€/year of charges, i could gain 400€ a year. I need more than 30 
 
 ![solar production in France 2019](img/france-2019-solar-production.png)
 
-# (temporal) conclusion
+# 1st conclusion
 
 Late 2022, electricity prices are frozen for a few months while waiting for spring of 2023 to return as a main topic.
 
@@ -158,11 +158,48 @@ The main purpose is to **reduce/eliminate consumption between 6pm to 8pm**. Inde
 
 Sadly, we can't democratize the use of local batteries because of the price and the the lifespan of the equipments.
 
-**BUT**, small steps count. But focusing on reducing waste, you'll gain more than investing in self-consumption solar panels. **In addition**, using an alternative way of producing heat makes it possible to reduce electricity during times when green energies are lacking.
+**BUT**, small steps count. But focusing on reducing wastes, you'll gain more than investing in self-consumption solar panels. **In addition**, using an alternative way of producing heat makes it possible to reduce electricity during times when green energies are lacking.
 
 # next steps
 
-- Explore to use solar panels to power hot tank water
-- Explore the build of a small capacity battery to eliminate peak consumptions
-- Explore possibilities to trade green cheap electricity by green expansive electricity
-- (to be continued)
+- Explore the usage of solar panels in order to power hot tank water
+- Explore the building of a small capacity battery in order to eliminate all peak consumptions
+- Explore the possibilities of trading electricity
+- Explore the vehicle-2-grid technology
+- Explore what we call the "erasing" (which consists of stopping electricity consumption during peaks)
+
+# 2nd conclusion
+
+Early 2024, i'm navigating through my second winter since my last conclusion.
+Let's dig into what i had to explore...
+
+## The usage of solar panels in order to power a tank water
+
+Well, solar energy is collected with a voltage of 12V. In order to power a tank water, we have to convert 12V DC into 220V AC. It's not efficient and it needs a DC/AC convertor. A better approach is to invest into thermal solar panels that heat water. But you'll need a compatible tank water and a side system in order to heat your water during cloudy days. :(
+
+I think, i should reduce the capacity of my tank and reduce the time I need to take a shower. :-/
+
+## Build a small home battery in order to eliminate all peak consumptions
+
+This topic took me the largest part of my time. Let me share the big picture :
+Instead of having an expansive battery that can provide 100% of your daily consumption, we focus on a smaller battery but with a smarter approach. Instead of using the battery as long as possible, the concept consists of using it at the right moment (when the energy costs the most) and recharge it when energy is not expensive. I've found [this startup](https://fractalenergy.io/fr/) that tries to implement the same concept.
+
+Ofcourse, it comes up with a lot of challenges. Batteries are too expensive and their lifespan too short. At the end it costs 0,2€/kW in battery and except if [you recycle batteries by yourself](https://www.vice.com/fr/article/43438d/des-bricoleurs-de-lextreme-utilisent-des-batteries-recyclees-pour-alimenter-leur-maison-en-energie), it's a blocker for now.
+
+Also, you need to implement the smart part. It could be a device plugged into your power meter, but to be seamless with your installation, we'll have to detect electricity peaks in "realtime" in order is to route the power consumption into the battery (and i don't know how it possible). Also, even if we don't need a large battery capacity (1kW of capacity is suitable), we'll need all the power instantly!
+
+**This topic is still the most exciting and challenging idea** and regarding the price of the electricty in EU, **it can become a reality!**
+
+## V2x Technology
+
+The correct term is "vehicle to home" or V2H. The idea is so smart and so old that we can ask why it's so difficult to have it on all EV. As usual, it's a question of standard and EU selected "combo" where the support of V2H is very new and not available on shelf for now. :(
+
+Also, the advantage is to combine this technology with local solar panels in order to charge the car during the day and using the energy during the night. And ofcourse, don't use your expensive car ^^.
+
+**This topic is the future**. see you in 10 years :)
+
+## What about erasing your consumption?
+
+The "erasing" consists of remove or postpone a consumption usage depending on an order given by the autority. For instance, because of a large request of energy, instead of starting a power plant, the autority requests to reduce consumption. "Erasing" works well since a while for large industries, the new challenge is to commit individual consumers. We already have the package "[tempo from EDF](https://particulier.edf.fr/fr/accueil/gestion-contrat/options/tempo.html#/)https://particulier.edf.fr/fr/accueil/gestion-contrat/options/tempo.html#/" in France that motivates clients to reduce their consumption a few days a year. Unfortunately it doesn't work well for people having a principal heating by electricity. Also this offer provides an electricity price by day instead of by hour.. Above all, the highest price is generally winter days without wind and sun.
+
+**Topic to explore !!**
