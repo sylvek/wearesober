@@ -25,4 +25,4 @@ We need to monitor at least 2 things at home :
 - A way to [collect power consumption from Linky](collect-data-from-linky.md)
 - [Control your hot water production](control-hot-water-production.md)
 - [How to display data history](display-data-history.md)
-- [What I've learned](what-ive-learned.md)
+- [What I learnt](what-ive-learned.md)
